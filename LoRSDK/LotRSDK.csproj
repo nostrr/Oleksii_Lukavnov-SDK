@@ -10,17 +10,28 @@
     <Description>This SDK provides a simple way to access movie data from the Lord of the Rings API.</Description>
     <PackageIcon>lord.png</PackageIcon>
     <PackageReadmeFile>Lord_of_the_Rings_API_SDK.md</PackageReadmeFile>
+    <RepositoryUrl>https://github.com/nostrr/Oleksii_Lukavnov-SDK</RepositoryUrl>
+    <PackageId>LotRSDKSample</PackageId>
+    <Version>1.0.1</Version>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <Optimize>False</Optimize>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <Optimize>True</Optimize>
   </PropertyGroup>
 
   <ItemGroup>
-    <None Include="..\..\..\..\Downloads\Lord_of_the_Rings_API_SDK.md">
+    <Content Include="..\..\..\..\Downloads\Lord_of_the_Rings_API_SDK.md">
       <Pack>True</Pack>
       <PackagePath>\</PackagePath>
-    </None>
-    <None Include="..\..\..\..\OneDrive\Рабочий стол\lord.png">
+    </Content>
+    <Content Include="..\..\..\..\OneDrive\Рабочий стол\lord.png">
       <Pack>True</Pack>
       <PackagePath>\</PackagePath>
-    </None>
+    </Content>
   </ItemGroup>
 
   <ItemGroup>
