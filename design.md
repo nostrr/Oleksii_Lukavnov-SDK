@@ -23,8 +23,11 @@ A set of unit tests to verify the functionality of the SDK.
 
 ## Solution
 *LordOfTheRingsSDK.Tests* - Unit Testing Project
+
 *LotRSDK* - main SDK package
+
 *LotRSDKSampleConsole* - Sample console project (using NuGet package)
+
 *LotRWebAPI* - WebAPI project
 
 #### Conclusion
