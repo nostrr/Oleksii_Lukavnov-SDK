@@ -1,4 +1,3 @@
-# Oleksii_Lukavnov-SDK
 # Lord of the Rings API SDK
 ### This SDK provides access to the Lord of the Rings API movie endpoints.
 #
