@@ -11,7 +11,7 @@ PM> Install-Package LotRSDK
 Alternatively, you can add the following line to your project's **.csproj** file:
 ```sh
 <ItemGroup>
-  <PackageReference Include="LotRSDK" Version="1.0.0" />
+  <PackageReference Include="LotRSDK" Version="1.0.1" />
 </ItemGroup>
 ```
 #
