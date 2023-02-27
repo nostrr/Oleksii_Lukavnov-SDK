@@ -6,12 +6,12 @@
 To use this SDK in your project, you can install it via NuGet Package Manager:
 
 ```sh
-PM> Install-Package LotRSDK
+PM> Install-Package LotRSDKSample
 ```
 Alternatively, you can add the following line to your project's **.csproj** file:
 ```sh
 <ItemGroup>
-  <PackageReference Include="LotRSDK" Version="1.0.1" />
+  <PackageReference Include="LotRSDKSample" Version="1.0.1" />
 </ItemGroup>
 ```
 #
