@@ -19,7 +19,7 @@ Alternatively, you can add the following line to your project's **.csproj** file
 To use the SDK, you need to first create an instance of the `MovieService`  class:
 
 ```
-var movieService = new MovieService(ClientType.HttpClient, URL)
+var movieService = new MovieService(ClientType.HttpClient)
 ```
 Where `ClientType` is the client type.
 
