@@ -17,7 +17,7 @@
 ##### Fix _deserializer = new JsonDeserializer() in the constructor `MovieService`, and add abstractions, add IoC container.
 #
 #### 7 - On a scale of 1 to 10, how would you rate this SDK? (higher is better).
-##### 6.5
+##### Rate is 6.5.  If I fixed everything mentioned above, the rating would be higher.
 #
 #### 8 - Anything else we should keep in mind when we evaluate the project?
 #####  [Design.md](https://github.com/nostrr/Oleksii_Lukavnov-SDK/blob/master/design.md).
