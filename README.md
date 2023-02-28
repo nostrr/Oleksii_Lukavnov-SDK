@@ -21,7 +21,7 @@ To use the SDK, you need to first create an instance of the `MovieService`  clas
 ```
 var movieService = new MovieService(ClientType.HttpClient)
 ```
-Where `ClientType` is the client type.
+Where `ClientType` is the client type(`HttpClient`, `HttpWebRequest`, `WebClient`)
 
 Then, you can call the available ***endpoints***:
 ```
