@@ -11,10 +11,10 @@
 ##### Yes, it's more convenient. You are not tied to the transport layer.
 #
 ####  5 - If you had more time, what else would you add?
-##### I would add more tests, exceptions, implement functionality for user authentication and authorization that can allow users to access secure API resources.
+##### I would add more tests, exception system, implement functionality for user authentication and authorization that can allow users to access secure API resources.
 #
 #### 6 - What would you change in your current SDK solution?
-##### Fix _deserializer = new JsonDeserializer() in the constructor `MovieService`, and add abstractions.
+##### Fix _deserializer = new JsonDeserializer() in the constructor `MovieService`, and add abstractions, add IoC container.
 #
 #### 7 - On a scale of 1 to 10, how would you rate this SDK? (higher is better).
 ##### 6.5
