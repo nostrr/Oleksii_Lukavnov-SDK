@@ -1,8 +1,8 @@
-#### 1- Have you manually tested the SDK?
+#### 1 - Have you manually tested the SDK?
 ##### I created console project and tested it there.
 #
-#### 2- Did you add a test suite? If so how will we use it? If not, why?
-##### Yes, I added a test suite. Firstly, you need to launch WebAPI application (In solution it is `LotRWebAPI` ) and then run tests (`LordOfTheRingsSDK.Tests`).
+#### 2 - Did you add a test suite? If so how will we use it? If not, why?
+##### Yes, I added a test suite. Firstly, you need to launch WebAPI application (In solution it is `LotRWebAPI`) and then run tests (`LordOfTheRingsSDK.Tests`).
 #
 ####  3 - Did you use any 3rd party library? Why did you use it? What are the tradeoffs?
 ##### I used only `Newtonsoft.Json`. In my opinion, this library is better than `System.Text.Json`. Adding an extra library adds more functionality, but it also adds additional dependencies. Error handling can slow down the SDK and make it more complex, but it is also necessary for reliable and safe application operation. Storing implementation classes with an interface in the same solution speeds up development, but reduces flexibility and adds unnecessary dependencies.
